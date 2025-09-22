@@ -21,7 +21,7 @@ public class FootballPlayer {
         System.out.println("Player Name - "+name +"\nAge - "+age+"\nHeight - "+height+"m"+ "\nWeight - "+weight +"lbs"+ "\nJersey - "+jerseyNumber);
 
         final double POUND = 0.45359237;
-        final int METER = 1000;
+        final int METER = 100;
 
         double weightInkg = (weight*POUND);
         float heightIncm= (height*METER);
